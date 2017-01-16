@@ -1,0 +1,15 @@
+10:37:23 **** Incremental Build of configuration Debug for project 01_CD_TESTS ****
+make all 
+Building file: ../src/Test.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++1y -I"/Users/cemil/cddev/cplusplus/01_CD_HelloLib" -I"/Users/cemil/cddev/cplusplus/01_CD_TESTS/cute" -I"/Users/cemil/cddev/cplusplus/01_CD_TESTS/boost" -I/Users/cemil/cddev/cplusplus/01_CD_TESTS/mockator -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -std=c++0x -MMD -MP -MF"src/Test.d" -MT"src/Test.o" -o "src/Test.o" "../src/Test.cpp"
+Finished building: ../src/Test.cpp
+ 
+Building target: 01_CD_TESTS
+Invoking: MacOS X C++ Linker
+g++ -L"/Users/cemil/cddev/cplusplus/01_CD_HelloLib/Debug" -o "01_CD_TESTS"  ./src/Test.o   -l01_CD_HelloLib
+Finished building target: 01_CD_TESTS
+ 
+
+10:37:25 Build Finished (took 1s.619ms)
+

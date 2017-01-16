@@ -1,0 +1,11 @@
+03:10:52 **** Incremental Build of configuration Debug for project hello_test ****
+make all 
+Building target: hello_test
+Invoking: MacOS X C++ Linker
+g++  -o "hello_test"  ./src/Test.o   -lboost_regex
+ld: library not found for -lboost_regex
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [hello_test] Error 1
+
+03:10:53 Build Finished (took 90ms)
+

@@ -1,0 +1,14 @@
+/*
+ * sayhello.cpp
+ *
+ *  Created on: 15.01.2017
+ *      Author: cemil
+ */
+
+#include "sayhello.h"
+#include <ostream>
+std:cout sayHello(std::ostream &out){
+	return out;
+}
+
+

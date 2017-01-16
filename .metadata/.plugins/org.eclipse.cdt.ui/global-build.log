@@ -1,0 +1,59 @@
+04:00:50 **** Incremental Build of configuration Debug for project 01_CD_HelloLib ****
+make all 
+make: Nothing to be done for `all'.
+04:00:50 **** Build of configuration Debug for project 01_CD_TESTS ****
+make all 
+Building file: ../src/Test.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++1y -I"/Users/cemil/cddev/cplusplus/01_CD_HelloLib" -I"/Users/cemil/cddev/cplusplus/01_CD_TESTS/cute" -I"/Users/cemil/cddev/cplusplus/01_CD_TESTS/boost" -I/Users/cemil/cddev/cplusplus/01_CD_TESTS/mockator -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -std=c++0x -MMD -MP -MF"src/Test.d" -MT"src/Test.o" -o "src/Test.o" "../src/Test.cpp"
+Finished building: ../src/Test.cpp
+ 
+Building target: 01_CD_TESTS
+Invoking: MacOS X C++ Linker
+g++ -L"/Users/cemil/cddev/cplusplus/01_CD_HelloLib/Debug" -o "01_CD_TESTS"  ./src/Test.o   -l01_CD_HelloLib
+Finished building target: 01_CD_TESTS
+ 
+04:00:55 **** Build of configuration Debug for project 01_CD_SAYHELLO ****
+make all 
+Building file: ../src/mainsayhello.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -MMD -MP -MF"src/mainsayhello.d" -MT"src/mainsayhello.o" -o "src/mainsayhello.o" "../src/mainsayhello.cpp"
+Finished building: ../src/mainsayhello.cpp
+ 
+Building file: ../src/sayhello.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -MMD -MP -MF"src/sayhello.d" -MT"src/sayhello.o" -o "src/sayhello.o" "../src/sayhello.cpp"
+Finished building: ../src/sayhello.cpp
+ 
+Building target: 01_CD_SAYHELLO
+Invoking: MacOS X C++ Linker
+g++  -o "01_CD_SAYHELLO"  ./src/mainsayhello.o ./src/sayhello.o   
+Finished building target: 01_CD_SAYHELLO
+ 
+04:01:01 **** Incremental Build of configuration Debug for project 01_CD_HelloLib ****
+make all 
+make: Nothing to be done for `all'.
+04:01:01 **** Incremental Build of configuration Debug for project 01_CD_HelloLib ****
+make all 
+make: Nothing to be done for `all'.
+04:01:02 **** Incremental Build of configuration Debug for project 01_CD_TESTS ****
+make all 
+make: Nothing to be done for `all'.
+10:37:23 **** Incremental Build of configuration Debug for project 01_CD_HelloLib ****
+make all 
+make: Nothing to be done for `all'.
+10:37:23 **** Incremental Build of configuration Debug for project 01_CD_HelloLib ****
+make all 
+make: Nothing to be done for `all'.
+10:37:23 **** Incremental Build of configuration Debug for project 01_CD_TESTS ****
+make all 
+Building file: ../src/Test.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++1y -I"/Users/cemil/cddev/cplusplus/01_CD_HelloLib" -I"/Users/cemil/cddev/cplusplus/01_CD_TESTS/cute" -I"/Users/cemil/cddev/cplusplus/01_CD_TESTS/boost" -I/Users/cemil/cddev/cplusplus/01_CD_TESTS/mockator -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -std=c++0x -MMD -MP -MF"src/Test.d" -MT"src/Test.o" -o "src/Test.o" "../src/Test.cpp"
+Finished building: ../src/Test.cpp
+ 
+Building target: 01_CD_TESTS
+Invoking: MacOS X C++ Linker
+g++ -L"/Users/cemil/cddev/cplusplus/01_CD_HelloLib/Debug" -o "01_CD_TESTS"  ./src/Test.o   -l01_CD_HelloLib
+Finished building target: 01_CD_TESTS
+ 

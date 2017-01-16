@@ -1,0 +1,6 @@
+03:44:39 **** Incremental Build of configuration Debug for project HelloLib ****
+make all 
+make: Nothing to be done for `all'.
+
+03:44:39 Build Finished (took 127ms)
+
